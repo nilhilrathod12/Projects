@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+<style>
+
+div h1{
+color: red;
+}
+#container{
+height:300px;
+width:300px;
+border: 1px solid pink;
+align-self: center;
+background-color: black;
+margin: 0 auto;
+}
+table{
+border: 1px solid;
+}
+td{
+color: blue;
+}
+#sub{
+margin-top: 30px;
+height: 40px;
+width: 80px;
+background-color: white;
+color: black;
+}
+#sub:hover {
+	box-shadow: 2px 2px 5px blue;
+}
+</style>
+</head>
+<body>
+	<div id="container" align="center">
+		<div>
+			<h1>Student Registration Form</h1>
+			<p></p>
+		</div>
+		<form action="studentregistration.jsp" method="post" name="form ">
+			<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="firstname"></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="lastname"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td>Qualification</td>
+					<td><input type="text" name="qualification"></td>
+				</tr>
+			</table>
+			<input id="sub" type="submit">
+		</form>
+	</div>
+</body>
+</html>
